@@ -1,0 +1,97 @@
+.maincontainer{
+    display: flex;
+}
+.sidebar{
+    background: rgb(10, 6, 26);
+    color: white;
+    height: 596px;
+    z-index: 1;
+    margin-left: -8px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.topSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.menu{
+    font-size: 18px;
+    line-height: 0;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    height: 30px;
+    padding: 10px;  
+  }
+  .link{
+    display: flex;
+    color:white;
+    padding:5px 10px;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+a{
+    text-decoration: none;
+}
+.active{
+    border-left: 10px solid white;
+    
+    background: rgb(45,51,89);
+}
+.link:hover{
+    border-left: 10px solid white;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    color: azure;
+    background: rgb(45,51,89);
+}
+.wrapper{
+    display: flex;
+    /* flex-direction: row; */
+}
+.sidenav{
+    display: flex;
+}
+.content{
+    background-color: aquamarine;
+    margin-bottom:5px;
+    margin-left: -1px;
+    margin-right: 7px;
+    flex: 7;
+
+    
+}
+.wrapIn{
+   background-color: gray;
+   display: flex;
+   flex-direction: row;
+   flex: 10;
+}
+.textArea{
+    
+    flex: 3.5;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    
+}
+.rightOps{
+    background-color: blanchedalmond;
+    flex: 5;
+    border-radius: 10px; 
+    
+}
+.rightOpsBtm{
+    background-color: blueviolet;
+    flex: 5;
+    border-radius: 10px;
+   
+}
+main{
+    padding: 0.5px;
+    margin: 10px 0;
+}
